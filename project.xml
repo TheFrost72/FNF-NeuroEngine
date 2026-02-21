@@ -76,6 +76,9 @@
 	<assets path="assets/shared" exclude="*.mp3" />
 	<assets path="assets/songs" exclude="*.mp3" />
 	<assets path="assets/videos" />
+	
+	<!--Android Icons Assets -->
+	<assets path="assets/android/res" rename="res" if="android" />
 
 	<!-- Base game -->
 	<assets path="assets/base_game" rename="assets" exclude="*.mp3" />
@@ -133,10 +136,6 @@
 	<config:mac category_type="public.app-category.music-games" />
 
 	<!-- Icons -->
-	<section if="android">
-		<icon path="icons/android/" />
-	</section>
-
     <section if="ios">
 		<icon path="icons/ios/Icon-App-20x20@1x.png" size="20" />
 		<icon path="icons/ios/Icon-App-20x20@2x.png" size="40" />
