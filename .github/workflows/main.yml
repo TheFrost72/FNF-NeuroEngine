@@ -1,0 +1,14 @@
+name: Main
+
+on: workflow_dispatch
+
+jobs:
+  Android:
+    uses: ./.github/workflows/android.yml
+    with:
+      name: Android
+      os: ubuntu-latest
+      setupCommand: ":"
+      buildArgs: ""
+      artifactName: NeuroEngine-Android
+      artifactPath: "export/release/android/bin/app/build/outputs/apk/release/*.apk"
