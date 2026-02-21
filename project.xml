@@ -137,21 +137,24 @@
 		<icon path="icons/android/" />
 	</section>
 
-	<section if="ios">
+    <section if="ios">
 		<icon path="icons/ios/Icon-App-20x20@1x.png" size="20" />
+		<icon path="icons/ios/Icon-App-20x20@2x.png" size="40" />
 		<icon path="icons/ios/Icon-App-20x20@3x.png" size="60" />
 		<icon path="icons/ios/Icon-App-29x29@1x.png" size="29" />
 		<icon path="icons/ios/Icon-App-29x29@2x.png" size="58" />
 		<icon path="icons/ios/Icon-App-29x29@3x.png" size="87" />
 		<icon path="icons/ios/Icon-App-40x40@1x.png" size="40" />
 		<icon path="icons/ios/Icon-App-40x40@2x.png" size="80" />
+		<icon path="icons/ios/Icon-App-40x40@3x.png" size="120" />
 		<icon path="icons/ios/Icon-App-60x60@2x.png" size="120" />
 		<icon path="icons/ios/Icon-App-60x60@3x.png" size="180" />
 		<icon path="icons/ios/Icon-App-76x76@1x.png" size="76" />
 		<icon path="icons/ios/Icon-App-76x76@2x.png" size="152" />
 		<icon path="icons/ios/Icon-App-83.5x83.5@2x.png" size="167" />
-	</section>
-
+		<icon path="icons/ios/ItunesArtwork@2x.png" size="1024" />
+    </section>
+	
 	<section if="desktop">
 		<icon path="icons/default/icon16.png" size="16" />
 		<icon path="icons/default/icon32.png" size="32" />
