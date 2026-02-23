@@ -80,9 +80,6 @@
 	<assets path="assets/shared" exclude="*.mp3" />
 	<assets path="assets/songs" exclude="*.mp3" />
 	<assets path="assets/videos" />
-	
-	<!--Android Icons Assets -->
-	<assets path="assets/android/res" rename="res" if="android" />
 
 	<!-- Base game -->
 	<assets path="assets/base_game" rename="assets" exclude="*.mp3" />
